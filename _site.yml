@@ -1,8 +1,8 @@
-name: my-website
+name: data-science
 navbar:
-  title: My Website
+  title: Data Science
   left:
-  - text: Home
+  - text: Projekt - odnawialne źródła energii
     href: index.html
   - text: About
     href: about.html

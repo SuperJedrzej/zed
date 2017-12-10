@@ -1,10 +1,23 @@
 ---
-title: "Home page"
-output: html_document
+title: "Projekt - odnawialne źródła energii"
+author: "Jędrzej Kubiak"
+date: "9 december 2017"
+
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
 ---
 
-```{r setup, include=FALSE}
+```{r settings, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(EDAWR)
+library(knitr)
+library(dplyr)
+head(tb)
 ```
 
 ## R Markdown
