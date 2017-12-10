@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-name: my-website
-output_dir: "."
-=======
 name: data-science
->>>>>>> fe458c9ac161c740fcbb221b6bc0dbdbca6ca1f4
 navbar:
   title: Data Science
   left:
@@ -17,4 +12,5 @@ output:
     highlight: textmate
     lib_dir: site_libs
     self_contained: no
+output_dir: "."
 

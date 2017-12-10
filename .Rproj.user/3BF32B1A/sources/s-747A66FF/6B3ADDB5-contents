@@ -1,10 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "My Website"
----
-
-Hello, Website!
-=======
 title: "Projekt - odnawialne źródła energii"
 author: "Jędrzej Kubiak"
 date: "9 december 2017"
@@ -45,4 +39,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
->>>>>>> fe458c9ac161c740fcbb221b6bc0dbdbca6ca1f4
