@@ -1,0 +1,9 @@
+{
+    "path" : "~/zed",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
