@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @SuperJedrzej
+ Sign out
+ Watch 0
+  Star 0  Fork 0 SuperJedrzej/zed
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathzed/index.html
+94d08bb  5 hours ago
+@SuperJedrzej SuperJedrzej halo
+1 contributor
+RawBlameHistory     
+450 lines (377 sloc)  63.2 KB
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -118,7 +136,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -150,10 +167,8 @@ $(document).ready(function () {
   if (href === "")
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
-
   // mark it active
   menuAnchor.parent().addClass('active');
-
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
 });
@@ -176,12 +191,10 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
-
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
         .removeClass('toc-ignore')
         .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
     // establish options
     var options = {
       selectors: "h1,h2",
@@ -195,14 +208,12 @@ $(document).ready(function ()  {
     };
     options.showAndHide = true;
     options.smoothScroll = true;
-
     // tocify
     var toc = $("#TOC").tocify(options).data("toc-tocify");
 });
 </script>
 
 <style type="text/css">
-
 #TOC {
   margin: 25px 0px 20px 0px;
 }
@@ -212,51 +223,40 @@ $(document).ready(function ()  {
   width: 100%;
 }
 }
-
-
 .toc-content {
   padding-left: 30px;
   padding-right: 40px;
 }
-
 div.main-container {
   max-width: 1200px;
 }
-
 div.tocify {
   width: 20%;
   max-width: 260px;
   max-height: 85%;
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   div.tocify {
     width: 25%;
   }
 }
-
 @media (max-width: 767px) {
   div.tocify {
     width: 100%;
     max-width: none;
   }
 }
-
 .tocify ul, .tocify li {
   line-height: 20px;
 }
-
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
   padding-left: 25px;
   text-indent: 0;
 }
-
 .tocify .list-group-item {
   border-radius: 0px;
 }
-
-
 </style>
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
@@ -423,7 +423,6 @@ postResample(lmPredict,testing$kwh)</code></pre>
 </div>
 
 <script>
-
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
@@ -431,8 +430,6 @@ function bootstrapStylePandocTables() {
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
-
-
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
@@ -447,3 +444,15 @@ $(document).ready(function () {
 
 </body>
 </html>
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
