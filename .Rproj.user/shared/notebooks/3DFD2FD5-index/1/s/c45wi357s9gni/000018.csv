@@ -1,0 +1,3 @@
+"0","cor <- cor(df %>% select(-data, -month, -hour),use=""complete.obs"")"
+"0","col <- colorRampPalette(c(""#BB4444"", ""#EE9988"", ""#FFFFFF"", ""#77AADD"", ""#4477AA""))"
+"0","corrplot(cor,type=""upper"",order=""hclust"", tl.col = ""black"", method = ""color"",col=col(200), addgrid.col = ""black"", diag=FALSE, tl.srt = 45)"

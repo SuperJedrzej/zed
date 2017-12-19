@@ -1,0 +1,4 @@
+"0","df$idsito <- factor(powerhouse$idsito, labels=c(1:length(table(powerhouse$idsito))))"
+"2","Error in factor(powerhouse$idsito, labels = c(1:length(table(powerhouse$idsito)))) : 
+  object 'powerhouse' not found
+"

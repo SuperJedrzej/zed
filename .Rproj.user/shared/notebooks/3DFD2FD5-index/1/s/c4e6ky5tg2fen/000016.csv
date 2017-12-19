@@ -1,0 +1,8 @@
+"0","przyklady<-select(df,lat,lon,irradiamento,altitude,humidity,tempi,dist,azimuthi,kwh,windspeed,pressure)"
+"0","a <- list()"
+"0","for (col in colnames(przyklady)) {"
+"0","a[[col]] <-((ggplot(przyklady) +"
+"0","    aes_string(x=col) +"
+"0","    geom_histogram(bins = 30))) "
+"0","}"
+"0","do.call(""grid.arrange"",c(a, ncol = 3))"

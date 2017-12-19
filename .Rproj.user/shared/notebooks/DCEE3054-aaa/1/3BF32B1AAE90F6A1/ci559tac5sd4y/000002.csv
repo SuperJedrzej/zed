@@ -1,0 +1,6 @@
+"0","array <- list()"
+"0","for (col in colnames(iData)) "
+"0","array[[col]] <-((ggplot(iData) +"
+"0","    aes_string(x=col) +"
+"0","    geom_histogram(bins = 30))) "
+"0","do.call(grid.arrange,c(array, ncol = 4))"

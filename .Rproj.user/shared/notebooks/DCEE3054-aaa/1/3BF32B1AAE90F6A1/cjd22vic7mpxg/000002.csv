@@ -1,0 +1,3 @@
+"0","data %>% select(-data, -month, -hour) %>% cor() ->corr"
+"0","corr %>% findCorrelation(cutoff = 0.2) -> result"
+"0","corrplot(corr[result,result])"

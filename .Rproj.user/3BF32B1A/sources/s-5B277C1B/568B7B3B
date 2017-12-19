@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1513637580352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1352010967",
+    "id" : "568B7B3B",
+    "lastKnownWriteTime" : 1513646619,
+    "last_content_update" : 1513646619822,
+    "path" : "~/GitHub/zed/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "cursorPosition" : "7,18",
+        "last_setup_crc32" : "5B277C1Bbb338d19",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

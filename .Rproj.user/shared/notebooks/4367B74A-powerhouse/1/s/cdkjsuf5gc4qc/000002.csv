@@ -1,0 +1,4 @@
+"0","inTraining <- createDataPartition(y = powerhouse$kwh, p = .8, list = FALSE)"
+"2","Error in createDataPartition(y = powerhouse$kwh, p = 0.8, list = FALSE) : 
+  object 'powerhouse' not found
+"

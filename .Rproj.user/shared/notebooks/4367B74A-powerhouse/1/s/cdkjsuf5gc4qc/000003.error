@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"createDataPartition(y = powerhouse$kwh, p = 0.8, list = FALSE)","line_number":0}],"message":"Error in createDataPartition(y = powerhouse$kwh, p = 0.8, list = FALSE) : \n  object 'powerhouse' not found\n"}

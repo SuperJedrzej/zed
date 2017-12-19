@@ -1,0 +1,56 @@
+"0","library(ggplot2)"
+"0","library(dplyr)"
+"2","
+Do³¹czanie pakietu: ‘dplyr’
+
+"
+"2","Nastêpuj¹ce obiekty zosta³y zakryte z ‘package:stats’:
+
+    filter, lag
+
+"
+"2","Nastêpuj¹ce obiekty zosta³y zakryte z ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(corrplot)"
+"2","pakiet ‘corrplot’ zosta³ zbudowany w wersji R 3.4.3"
+"2","corrplot 0.84 loaded
+"
+"0","library(gridExtra)"
+"2","pakiet ‘gridExtra’ zosta³ zbudowany w wersji R 3.4.3"
+"2","
+Do³¹czanie pakietu: ‘gridExtra’
+
+"
+"2","Nastêpuj¹cy obiekt zosta³ zakryty z ‘package:dplyr’:
+
+    combine
+
+"
+"0","library(plotly)"
+"2","pakiet ‘plotly’ zosta³ zbudowany w wersji R 3.4.3"
+"2","
+Do³¹czanie pakietu: ‘plotly’
+
+"
+"2","Nastêpuj¹cy obiekt zosta³ zakryty z ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","Nastêpuj¹cy obiekt zosta³ zakryty z ‘package:stats’:
+
+    filter
+
+"
+"2","Nastêpuj¹cy obiekt zosta³ zakryty z ‘package:graphics’:
+
+    layout
+
+"
+"0","library(caret)"
+"2","pakiet ‘caret’ zosta³ zbudowany w wersji R 3.4.3"
+"2","£adowanie wymaganego pakietu: lattice
+"

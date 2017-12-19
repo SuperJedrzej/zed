@@ -1,0 +1,5 @@
+"0","plotData <- data %>% group_by(idsito, month) %>% summarise(kwh=sum(kwh))"
+"0","plot <- ggplot(data = plotData, aes(month,kwh, color=factor(idsito))) + "
+"0","  geom_point() + "
+"0","  theme(axis.text.x = element_text(angle = 90))"
+"0","ggplotly(plot)"

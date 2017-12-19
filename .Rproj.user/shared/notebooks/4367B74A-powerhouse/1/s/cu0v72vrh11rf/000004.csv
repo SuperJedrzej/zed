@@ -1,0 +1,1 @@
+"0","cor <- cor(df %>% select(-data),use=""complete.obs"", method=""pearson"")"
