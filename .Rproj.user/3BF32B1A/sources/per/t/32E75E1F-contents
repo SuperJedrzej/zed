@@ -1,19 +1,16 @@
-name: data-science
+name: my-website
+output_dir: "."
 navbar:
-  title: Data Science
+  title: My Website
   left:
-  - text: Projekt - panele fotowoltaiczne
+  - text: Home
     href: index.html
   - text: About
     href: about.html
 output:
   html_document:
-    lang: pl
     theme: cosmo
-    mainfont: Arial
     highlight: textmate
     lib_dir: site_libs
     self_contained: no
-output_dir: '.'
-
 

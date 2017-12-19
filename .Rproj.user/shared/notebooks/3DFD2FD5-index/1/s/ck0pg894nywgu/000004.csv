@@ -1,4 +1,0 @@
-"0","meanIrr<-df%>%filter(irradiamento != 0) %>% group_by(month,hour)%>%summarise(mean=mean(irradiamento))"
-"0","meanKWH<-df%>%filter(kwh != 0) %>% group_by(month, hour)%>%summarise(mean=mean(kwh))"
-"0","df <- df %>% mutate(irradiamento = ifelse(irradiamento != 0,irradiamento, as.numeric(meanIrr[meanIrr$hour == hour & meanIrr$month == month,]$mean))) %>% filter(!is.na(irradiamento))"
-"0","df <- df %>% mutate(kwh = ifelse(kwh != 0, kwh,                         as.numeric(meanKWH[meanKWH$hour == hour & meanKWH$month == month,]$mean))) %>% filter(!is.na(kwh))"

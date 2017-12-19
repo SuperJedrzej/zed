@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "path" : "~/GitHub/zed",
+=======
+    "path" : "~/zed",
+>>>>>>> 3b39e46eb5f2387a2abe842983b09f34614d5145
     "sortOrder" : [
         {
             "ascending" : true,

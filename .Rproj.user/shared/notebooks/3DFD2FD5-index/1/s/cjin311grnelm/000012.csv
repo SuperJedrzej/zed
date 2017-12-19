@@ -1,7 +1,0 @@
-"0","wykres <- df %>% group_by(idsito,anno,month) %>% summarise(kwh = sum(kwh))"
-"0","ggplotwykres <- ggplot(data = wykres, aes(month,kwh, color=factor(idsito))) + "
-"0","  geom_point()+"
-"0","  labs(y=""kWh"") + "
-"0","  labs(x=""miesiąc"")+"
-"0","  labs(""Interaktywny wykres"")"
-"0","ggplotly(ggplotwykres,dynamicTicks = TRUE,width = NULL, height = NULL)"

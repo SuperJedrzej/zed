@@ -1,3 +1,0 @@
-"0","df <- read.csv(""elektrownie.csv"", row.names=1)"
-"0","df<- df %>% mutate(month= format(as.POSIXct(data, format='%m/%d/%Y %H:%M'), ""%Y-%m""))"
-"0","df <- df %>% mutate(hour= as.numeric(format(as.POSIXct(data, format='%m/%d/%Y %H:%M'), ""%H"")))"

@@ -1,5 +1,5 @@
 ---
-title: "Projekt - panele fotowoltaiczne"
+title: "Projekt - odnawialne źródła energii"
 author: "Jędrzej Kubiak"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:

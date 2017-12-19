@@ -2,18 +2,15 @@ name: data-science
 navbar:
   title: Data Science
   left:
-  - text: Projekt - panele fotowoltaiczne
+  - text: Projekt - odnawialne źródła energii
     href: index.html
   - text: About
     href: about.html
 output:
   html_document:
-    lang: pl
     theme: cosmo
-    mainfont: Arial
     highlight: textmate
     lib_dir: site_libs
     self_contained: no
-output_dir: '.'
-
+output_dir: "."
 
